@@ -6,9 +6,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AluraGeek</title>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-        
+        <header class="cabecalho">
+            <img src="img/logo.svg" alt="AluraGeek" class="cabecalho--logo">
+            <a href="#" class="cabecalho--login">Login</a>
+            <input type="search" id="pesquisa" class="cabecalho--pesquisa" placeholder="O que deseja encontrar?">
+            <label for="pesquisa" class="cabecalho--label">Pesquisar</label>
+            <img src="img/pesquisa.svg" alt="" class="cabecalho--lupa">
+        </header>
+
+        <main>
+            <section class="banner"></section>
+
+            <section class="galeria-starwars"></section>
+            <section class="galeria-consoles"></section>
+            <section class="galeria-diversos"></section>
+
+            <section class="contato"></section>
+        </main>
+
+        <footer></footer>
+
     </body>
 </html>

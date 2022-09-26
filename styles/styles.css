@@ -1,0 +1,16 @@
+@import url(cabecalho.css);
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --azul: #2A7AE4;
+    --cinza: #464646;
+}
+
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
