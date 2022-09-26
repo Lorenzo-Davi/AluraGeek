@@ -1,0 +1,9 @@
+.botao {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 16px;
+    background-color: var(--azul);
+    color: var(--branco);
+    display: inline-block;
+}

@@ -1,4 +1,5 @@
 @import url(cabecalho.css);
+@import url(banner.css);
 
 :root {
     --preto: #000000;
@@ -13,4 +14,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    color: var(--preto);
+    background-color: var(--branco);
 }
