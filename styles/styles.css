@@ -1,5 +1,7 @@
+@import url(componentes.css);
 @import url(cabecalho.css);
 @import url(banner.css);
+@import url(galeria.css);
 
 :root {
     --preto: #000000;

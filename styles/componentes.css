@@ -7,3 +7,23 @@
     color: var(--branco);
     display: inline-block;
 }
+
+.verTudo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--azul);
+}
+
+.verTudo--texto {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.verTudo--img {
+    content: "";
+    background-image: url(../img/icon-seta.svg);
+    width: 16px;
+    height: 16px;
+}
