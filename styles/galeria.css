@@ -1,5 +1,5 @@
 .galeria {
-    padding: 16px;
+    padding: 1rem;
 }
 
 .galeria__header {
@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 16px;
+    justify-content: center;
 }
 
 .galeria__produtos__item:nth-child(1), .galeria__produtos__item:nth-child(2), .galeria__produtos__item:nth-child(3), .galeria__produtos__item:nth-child(4) {
