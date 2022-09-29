@@ -2,12 +2,17 @@
 @import url(cabecalho.css);
 @import url(banner.css);
 @import url(galeria.css);
+@import url(contato.css);
+@import url(rodape.css);
 
 :root {
     --preto: #000000;
     --branco: #FFFFFF;
     --azul: #2A7AE4;
+    --azul-claro: #EAF2FD;
     --cinza: #464646;
+    --cinza-medio: #A2A2A2;
+    --cinza-claro: #C8C8C8;
 }
 
 body {

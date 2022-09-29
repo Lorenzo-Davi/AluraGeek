@@ -8,20 +8,20 @@
     display: inline-block;
 }
 
-.verTudo {
+.ver-tudo {
     display: flex;
     align-items: center;
     gap: 4px;
     color: var(--azul);
 }
 
-.verTudo--texto {
+.ver-tudo--texto {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
 }
 
-.verTudo--img {
+.ver-tudo--img {
     content: "";
     background-image: url(../img/icon-seta.svg);
     width: 16px;

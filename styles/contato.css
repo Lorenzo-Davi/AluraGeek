@@ -1,0 +1,71 @@
+.contato {
+    background-color: var(--azul-claro);
+    padding: 16px;
+}
+
+.contato__menu {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.contato__menu--logo {
+    width: 176px;
+    height: 50px;
+}
+
+.contato__menu__lista__item {
+    margin-top: 16px;
+}
+
+.contato__menu__lista__item--link {
+    line-height: 19px;
+    color: var(--cinza);
+}
+
+.contato__contate--titulo {
+    font-weight: 700;
+    line-height: 19px;
+    color: var(--cinza);
+    margin-bottom: 8px;
+}
+
+.contato__contate__form .container {
+    position: relative;
+}
+
+.contato__contate--nome-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--cinza-medio);
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+.contato__contate--nome-input {
+    width: 94%;
+    border-radius: 4px;
+    border-bottom: 1px solid var(--cinza-claro);
+    padding: 28px 12px 8px 12px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cinza);
+}
+
+.contato__contate--msg-input {
+    width: 94%;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cinza);
+    padding: 16px 12px 0 12px;
+    border-radius: 4px;
+    border-bottom: 1px solid var(--cinza-claro);
+}
+
+.contato__contate--msg-input::placeholder {
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cinza-medio);
+}
