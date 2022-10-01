@@ -69,3 +69,34 @@
     line-height: 20px;
     color: var(--cinza-medio);
 }
+
+@media screen and (min-width: 768px) {
+    .contato {
+        display: flex;
+        padding: 32px 32px 8px 32px;
+        gap: 94px;
+        align-items: flex-start;
+    }
+
+    .contato__menu {
+        text-align: left;
+    }
+
+    .contato__menu__lista {
+        margin-bottom: 16px;
+    }
+
+    .contato__menu__lista__item {
+        margin: 0 0 24px 0;
+    }
+
+    .contato__contate--nome-input {
+        padding: 28px 0 8px 12px;
+    }
+
+    .contato__contate--msg-input {
+        width: 94%;
+        height: 50px;
+        padding: 16px 0 16px 12px;
+    }
+}
