@@ -17,10 +17,15 @@
 
     <body>
         <header class="cabecalho">
-            <img src="img/logo.svg" alt="AluraGeek" class="cabecalho--logo">
+            <div class="cabecalho__esquerda">
+                <img src="img/logo.svg" alt="AluraGeek" class="cabecalho__esquerda--logo">
+
+                <input type="search" id="pesquisa" class="cabecalho__esquerda--pesquisa" placeholder="O que deseja encontrar?">
+                <label for="pesquisa" class="cabecalho__esquerda--label">Pesquisar</label>
+            </div>
+            
             <a href="#" class="cabecalho--login">Login</a>
-            <input type="search" id="pesquisa" class="cabecalho--pesquisa" placeholder="O que deseja encontrar?">
-            <label for="pesquisa" class="cabecalho--label">Pesquisar</label>
+
             <img src="img/pesquisa.svg" alt="" class="cabecalho--lupa">
         </header>
 
