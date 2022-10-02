@@ -9,7 +9,7 @@
 }
 
 .banner__texto {
-    padding: 16px;
+    padding: 78px 0 0 16px;
 }
 
 .banner__texto--titulo {
@@ -17,7 +17,6 @@
     font-size: 22px;
     line-height: 26px;
     color: var(--branco);
-    margin-top: 62px;
 }
 
 .banner__texto--descricao {
@@ -37,18 +36,36 @@
     }
 
     .banner__texto {
-        padding: 32px;
+        padding: 161px 0 0 32px;
     }
 
     .banner__texto--titulo {
         font-size: 52px;
-        line-height: 61px;
-        margin-top: 129px;       
+        line-height: 61px;    
     }
 
     .banner__texto--descricao {
         font-size: 22px;
         line-height: 26px;
         padding: 16px 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        background: url(../img/banner-pc.png);
+    }
+
+    .banner__texto {
+        padding: 150px 0 0 152px;
+    }
+
+    .banner__texto--titulo {
+        font-weight: 700;
+        font-size: 52px;
+    }
+
+    .banner__texto--descricao {
+        font-weight: 700;
     }
 }
