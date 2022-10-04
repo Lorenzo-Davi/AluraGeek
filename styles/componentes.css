@@ -23,7 +23,24 @@
 
 .ver-tudo--img {
     content: "";
-    background-image: url(../img/icon-seta.svg);
+    background: url(../img/icon-seta.svg) no-repeat center;
+    background-size: contain;
     width: 16px;
     height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .ver-tudo {
+        gap: 8px;
+    }
+
+    .ver-tudo--texto {
+        font-size: 16px;
+        line-height: 19px;        
+    }
+    
+    .ver-tudo--img {
+        width: 24px;
+        height: 24px;
+    }
 }

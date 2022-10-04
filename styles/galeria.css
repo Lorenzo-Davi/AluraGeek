@@ -68,4 +68,29 @@
         width: 164px;
         height: 174px;
     }
+
+    .galeria__produtos__item--preco, .galeria__produtos__item--link {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .galeria {
+        padding: 2rem 152px;
+    }
+
+    .galeria__header--titulo {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .galeria__produtos__item {
+        display: initial;
+    }
+
+    .galeria__produtos__item--foto {
+        width: 176px;
+        height: 174px;
+    }
 }

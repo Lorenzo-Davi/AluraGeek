@@ -100,3 +100,24 @@
         padding: 16px 0 16px 12px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .contato {
+        padding: 64px 152px;
+        justify-content: space-between;
+    }
+    
+    .contato__menu {
+        display: flex;
+        gap: 112px;
+        margin: 0;
+    }
+
+    .contato__contate {
+        width: 560px;
+    }
+
+    .contato__contate--nome-input, .contato__contate--msg-input {
+        width: 100%;
+    }
+}
