@@ -10,16 +10,6 @@
     gap: 32px;
 }
 
-.cabecalho--login {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--azul);
-    padding: 12px 47.5px;
-    border: 1px solid var(--azul);
-    margin-left: 35.5px;
-}
-
 .cabecalho__esquerda--pesquisa, .cabecalho__esquerda--label {
     display: none;
 }
@@ -27,8 +17,8 @@
 .cabecalho--lupa {
     display: initial;
     position: absolute;
-    top: 27px;
-    right: 20px;
+    top: 24px;
+    right: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,7 +30,7 @@
     .cabecalho__esquerda--pesquisa {
         display: inline;
         padding: 8px 73px 8px 16px;
-        background: url("../img/pesquisa.svg");
+        background: url(../img/pesquisa.svg);
         background-repeat: no-repeat;
         background-position: 235px;
         background-color: var(--branco-escuro);

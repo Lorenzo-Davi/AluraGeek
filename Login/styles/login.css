@@ -1,0 +1,77 @@
+.login {
+    text-align: center;
+    background-color: var(--branco-escuro);
+    padding: 97px 42.5px 76px 42.5px;
+}
+
+.login--titulo {
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.login .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.login--email-label, .login--senha-label {
+    display: none;
+}
+
+.login--email-input, .login--senha-input {
+    background-color: var(--branco);
+    border-radius: 4px;
+    padding: 10px 0 10px 12px;
+    width: 263px;
+}
+
+.login--senha-input {
+    border-bottom: 1px solid var(--cinza-claro);
+}
+
+.login--email-input::placeholder, .login--senha-input::placeholder {
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cinza-medio);
+}
+
+.login--botao {
+    padding: 12px 34px;
+}
+
+@media screen and (min-width: 768px) {
+    .login {
+        padding: 45px 247px 61px 246px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .login {
+        padding: 91px 508px;
+    }
+
+    .login--titulo {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .login .container {
+        margin: 25px 0;
+        gap: 25px;
+    }
+
+    .login--email-input, .login--senha-input {
+        padding: 21px 0 21px 12px;
+        border-bottom: 1px solid var(--cinza-claro);
+        width: 412px;
+    }
+
+    .login--botao {
+        padding: 20.5px 185.5px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
