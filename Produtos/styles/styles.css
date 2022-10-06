@@ -1,0 +1,26 @@
+@import url(componentes.css);
+@import url(cabecalho.css);
+@import url(galeria.css);
+@import url(contato.css);
+@import url(rodape.css);
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --azul: #2A7AE4;
+    --azul-claro: #EAF2FD;
+    --cinza: #464646;
+    --cinza-medio: #A2A2A2;
+    --cinza-claro: #C8C8C8;
+    --branco-escuro: #F5F5F5;
+}
+
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--preto);
+    background-color: var(--branco);
+}
