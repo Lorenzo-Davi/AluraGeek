@@ -1,7 +1,7 @@
 .banner {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
     linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), 
-    url(../img/banner-mobile.png);
+    url(../../img/banner-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@
     .banner {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
         linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), 
-        url(../img/banner-tablet.png);
+        url(../../img/banner-tablet.png);
         height: 352px;
     }
 
@@ -53,7 +53,7 @@
 
 @media screen and (min-width: 1440px) {
     .banner {
-        background: url(../img/banner-pc.png);
+        background: url(../../img/banner-pc.png);
     }
 
     .banner__texto {
