@@ -30,7 +30,7 @@
     .cabecalho__esquerda--pesquisa {
         display: inline;
         padding: 8px 73px 8px 16px;
-        background: url(../img/pesquisa.svg);
+        background: url(../../img/pesquisa.svg);
         background-repeat: no-repeat;
         background-position: 235px;
         background-color: var(--branco-escuro);
