@@ -53,13 +53,13 @@
 }
 
 .galeria__produtos__item--apagar {
-    background: url(../img/apagar.svg);
+    background: url(../../img/apagar.svg);
     top: 8px;
     right: 48px;
 }
 
 .galeria__produtos__item--editar {
-    background: url(../img/editar.svg);
+    background: url(../../img/editar.svg);
     top: 8px;
     right: 8px;
 }
