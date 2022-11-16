@@ -1,6 +1,6 @@
 @import url(componentes.css);
 @import url(cabecalho.css);
-@import url(banner.css);
+@import url(produto.css);
 @import url(galeria.css);
 @import url(contato.css);
 @import url(rodape.css);
@@ -9,7 +9,6 @@
     --preto: #000000;
     --branco: #FFFFFF;
     --azul: #2A7AE4;
-    --azul-hover: #82b5f8;
     --azul-claro: #EAF2FD;
     --cinza: #464646;
     --cinza-medio: #A2A2A2;

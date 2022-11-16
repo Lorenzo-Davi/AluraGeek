@@ -10,21 +10,6 @@
     gap: 32px;
 }
 
-.cabecalho--login {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--azul);
-    padding: 12px 47.5px;
-    border: 1px solid var(--azul);
-    margin-left: 35.5px;
-}
-
-.cabecalho--login:hover {
-    background-color: var(--azul-hover);
-    color: var(--branco);
-}
-
 .cabecalho__esquerda--pesquisa, .cabecalho__esquerda--label {
     display: none;
 }
@@ -32,8 +17,8 @@
 .cabecalho--lupa {
     display: initial;
     position: absolute;
-    top: 27px;
-    right: 20px;
+    top: 24px;
+    right: 16px;
 }
 
 @media screen and (min-width: 768px) {

@@ -8,6 +8,10 @@
     display: inline-block;
 }
 
+.botao:hover {
+    background-color: var(--azul-hover);
+}
+
 .ver-tudo {
     display: flex;
     align-items: center;
