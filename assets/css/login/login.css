@@ -10,10 +10,7 @@
 }
 
 .login .container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 16px;
     margin: 16px 0;
 }
 
@@ -30,6 +27,8 @@
 
 .login--senha-input {
     border-bottom: 1px solid var(--cinza-claro);
+    margin: 16px auto 0 auto;
+    display: block;
 }
 
 .login--email-input::placeholder, .login--senha-input::placeholder {
@@ -40,6 +39,12 @@
 
 .login--botao {
     padding: 12px 34px;
+}
+
+.login--incorreto {
+    font-size: 12px;
+    display: block;
+    color: var(--erro)
 }
 
 @media screen and (min-width: 768px) {

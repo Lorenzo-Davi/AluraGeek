@@ -34,14 +34,15 @@
                 
                 <div class="container">
                     <label for="login-email" class="login--email-label">E-mail</label>
-                    <input type="email" id="login-email" class="login--email-input" placeholder="Escreva seu email">
-
-                    <label for="login-semha" class="login--senha-label">Senha</label>
-                    <input type="password" id="login-senha" class="login--senha-input" placeholder="Escreva sua senha">
+                    <input type="email" id="login-email" class="login--email-input" placeholder="Escreva seu email" required>
+                    
+                    <label for="login-senha" class="login--senha-label">Senha</label>
+                    <input type="password" id="login-senha" class="login--senha-input" placeholder="Escreva sua senha" required>
+                    
+                    <span class="login--incorreto" id="dado-incorreto"></span>
                 </div>
                 
-                <input type="submit" value="Entrar" class="login--botao botao">
-                <a href="./produtos.html">Entrar</a>
+                <input type="submit" value="Entrar" class="login--botao botao" id="btnEnviar">
             </form>
 
             <section class="contato">
@@ -97,5 +98,7 @@
         <footer class="rodape">
             <p class="rodape--texto">Desenvolvido por Lorenzo Davi<br>2022</p>
         </footer>
+
+        <script src="assets/script/login.js"></script>
     </body>
 </html>
