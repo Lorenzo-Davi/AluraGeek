@@ -39,6 +39,7 @@
 
 .login--botao {
     padding: 12px 34px;
+    cursor: pointer;
 }
 
 .login--incorreto {

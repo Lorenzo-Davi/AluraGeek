@@ -6,4 +6,5 @@
     background-color: var(--azul);
     color: var(--branco);
     display: inline-block;
+    cursor: pointer;
 }
