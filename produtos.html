@@ -236,15 +236,15 @@
                 <div class="contato__contate">
                     <h2 class="contato__contate--titulo">Fale Conosco:</h2>
 
-                    <form action="" class="contato__contate__form">
+                    <form class="contato__contate__form">
                         <div class="container">
                             <label for="contato--nome" class="contato__contate--nome-label">Nome</label>
-                            <input type="text" id="contato--nome" class="contato__contate--nome-input">
+                            <input type="text" id="contato--nome" class="contato__contate--nome-input" required minlength="3">
                         </div>
                     
-                        <textarea name="" id="contato--msg" cols="30" rows="10" class="contato__contate--msg-input" placeholder="Escreva sua mensagem"></textarea>
+                        <textarea name="" id="contato--msg" cols="30" rows="10" class="contato__contate--msg-input" placeholder="Escreva sua mensagem" required minlength="5"></textarea>
 
-                        <input type="submit" value="Enviar Mensagem" class="botao">
+                        <input type="submit" value="Enviar Mensagem" class="botao contato__contate--enviar">
                     </form>
                 </div>
             </section>
@@ -253,5 +253,7 @@
         <footer class="rodape">
             <p class="rodape--texto">Desenvolvido por Lorenzo Davi<br>2022</p>
         </footer>
+        
+        <script src="assets/script/contato.js"></script>
     </body>
 </html>
