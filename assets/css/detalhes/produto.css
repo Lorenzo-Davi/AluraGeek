@@ -1,0 +1,27 @@
+.produto--img {
+    width: 100vw;
+    height: 192px;
+    object-fit: cover;
+}
+
+.produto__descricao {
+    margin: 1rem;
+    color: var(--cinza);
+}
+
+.produto__descricao--titulo {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.produto__descricao--preco {
+    margin: 0.5rem 0;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.produto__descricao--texto {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
