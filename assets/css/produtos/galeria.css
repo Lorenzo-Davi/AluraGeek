@@ -24,6 +24,7 @@
 .galeria__produtos__item--foto {
     width: 156px;
     height: 174px;
+    object-fit: cover;
 }
 
 .galeria__produtos__item--titulo, .galeria__produtos__item--preco {

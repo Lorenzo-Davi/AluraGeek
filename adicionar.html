@@ -34,29 +34,29 @@
                 
                 <div class="adicionar__container">
                     <label for="adicionar--url" class="adicionar__container-label">URL da Imagem</label>
-                    <input type="text" id="adicionar--url" class="adicionar__container-input">
+                    <input type="url" id="adicionar--url" class="adicionar__container-input" name="add-img">
                 </div>
                 
                 <div class="adicionar__container">
                     <label for="adicionar--categoria" class="adicionar__container-label">Categoria</label>
-                    <input type="text" id="adicionar--categoria" class="adicionar__container-input">
+                    <input type="text" id="adicionar--categoria" class="adicionar__container-input" name="add-categoria">
                 </div>
 
                 <div class="adicionar__container">
                     <label for="adicionar--nome" class="adicionar__container-label">Nome do Produto</label>
-                    <input type="text" id="adicionar--nome" class="adicionar__container-input">
+                    <input type="text" id="adicionar--nome" class="adicionar__container-input" name="add-nome">
                 </div>
 
                 <div class="adicionar__container">
                     <label for="adicionar--preco" class="adicionar__container-label">Preço do Produto</label>
-                    <input type="text" id="adicionar--preco" class="adicionar__container-input">
+                    <input type="text" id="adicionar--preco" class="adicionar__container-input" name="add-preco">
                 </div>
 
                 <textarea id="adicionar--msg" cols="10" rows="3" 
                 class="adicionar__container-desc" 
-                placeholder="Descrição do Produto"></textarea>
+                placeholder="Descrição do Produto" name="add-desc"></textarea>
 
-                <input type="button" class="adicionar--enviar botao" value="Adicionar Produto">
+                <input type="submit" class="adicionar--enviar botao" value="Adicionar Produto">
             </form>
 
             <section class="contato">
@@ -111,6 +111,7 @@
             <p class="rodape--texto">Desenvolvido por Lorenzo Davi<br>2022</p>
         </footer>
         
+        <script src="assets/script/adicionar.js"></script>
         <script src="assets/script/contato.js"></script>
     </body>
 </html>
